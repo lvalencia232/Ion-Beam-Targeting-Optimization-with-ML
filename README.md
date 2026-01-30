@@ -1,6 +1,6 @@
 # Beam–Target Interaction Analysis for Isotopic Implantation Optimization
 
-## Descripción del Proyecto
+## Project Description
 Precise control of ion-beam trajectories is essential in nuclear and materials physics experiments, particularly when producing isotopically pure targets for further analysis.
 
 In this project, an experimental campaign was conducted to implant Se-80 and Se-82 isotopes into a carbon target coated with a thin gold layer, mounted on an aluminum frame. The experiment was performed using the LEMA accelerator at IFUNAM, and the target 
