@@ -65,11 +65,12 @@ This provides a practical tool for beam diagnostics and experimental optimizatio
 
 - Classification modeling
 
+- Scientific data analysis
+
+- Experimental diagnostics
+
+
 ## 🖼️ Results Preview
 
 ![Prediction Preview](https://github.com/lvalencia232/Ion-Beam-Targeting-Optimization-with-ML/blob/dev/images/model_pred.png)
 ![Diagram Preview](https://github.com/lvalencia232/Ion-Beam-Targeting-Optimization-with-ML/blob/dev/images/diagram.png)
-
-- Scientific data analysis
-
-- Experimental diagnostics
