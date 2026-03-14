@@ -1,6 +1,6 @@
 # Ion Beam Targeting Optimization using Machine Learning
 
-## Project Description
+## 🧠 Project Description
 Precise control of ion-beam trajectories is critical in accelerator physics experiments, where even small misalignments can cause the beam to impact surrounding structures instead of the intended target.
 
 In this project, experimental data from the LEMA accelerator at IFUNAM was analyzed to study the implantation of Se-80 and Se-82 isotopes into a carbon target coated with a thin gold layer.
@@ -35,7 +35,7 @@ This provided a mathematical representation of the beam–target interaction reg
 
 ### A Logistic Regression classifier was trained to predict the beam impact location.
 
-## Key results
+## 📌 Key results
 
 The model successfully distinguishes between:
 
@@ -45,7 +45,7 @@ The model successfully distinguishes between:
 
 This provides a practical tool for beam diagnostics and experimental optimization.
 
-## Technologies
+## 🛠️ Technologies
 
 - Python
 
@@ -64,6 +64,11 @@ This provides a practical tool for beam diagnostics and experimental optimizatio
 - Feature engineering from numerical simulations
 
 - Classification modeling
+
+## 🖼️ Results Preview
+
+![Prediction Preview](https://github.com/lvalencia232/Ion-Beam-Targeting-Optimization-with-ML/blob/dev/images/model_pred.png)
+![Diagram Preview](https://github.com/lvalencia232/Ion-Beam-Targeting-Optimization-with-ML/blob/dev/images/diagram.png)
 
 - Scientific data analysis
 
