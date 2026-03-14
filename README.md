@@ -72,5 +72,5 @@ This provides a practical tool for beam diagnostics and experimental optimizatio
 
 ## 🖼️ Results Preview
 
-![Prediction Preview](https://github.com/lvalencia232/Ion-Beam-Targeting-Optimization-with-ML/blob/dev/images/model_pred.png)
-![Diagram Preview](https://github.com/lvalencia232/Ion-Beam-Targeting-Optimization-with-ML/blob/dev/images/diagram.png)
+![Prediction Preview](https://github.com/lvalencia232/Ion-Beam-Targeting-Optimization-with-ML/blob/main/images/model_pred.png)
+![Diagram Preview](https://github.com/lvalencia232/Ion-Beam-Targeting-Optimization-with-ML/blob/main/images/diagram.png)
