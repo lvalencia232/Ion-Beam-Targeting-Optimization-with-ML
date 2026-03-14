@@ -1,30 +1,70 @@
-# Beam–Target Interaction Analysis for Isotopic Implantation Optimization
+# Ion Beam Targeting Optimization using Machine Learning
 
 ## Project Description
-Precise control of ion-beam trajectories is essential in nuclear and materials physics experiments, particularly when producing isotopically pure targets for further analysis.
+Precise control of ion-beam trajectories is critical in accelerator physics experiments, where even small misalignments can cause the beam to impact surrounding structures instead of the intended target.
 
-In this project, an experimental campaign was conducted to implant Se-80 and Se-82 isotopes into a carbon target coated with a thin gold layer, mounted on an aluminum frame. The experiment was performed using the LEMA accelerator at IFUNAM, and the target 
-was fully characterized both before and after implantation.
+In this project, experimental data from the LEMA accelerator at IFUNAM was analyzed to study the implantation of Se-80 and Se-82 isotopes into a carbon target coated with a thin gold layer.
 
-During the experiment, it was observed that the generated ion beam did not exclusively impact the intended target region, but partially struck the surrounding aluminum frame. This issue, previously identified in accelerator physics, was addressed
-through a numerical solution to the “goat grazing problem”, which describes constrained beam trajectories within bounded geometries.
+During the experiment, part of the ion beam impacted the aluminum frame surrounding the target, reducing implantation efficiency and potentially affecting experimental outcomes.
 
-Building upon this numerical framework, a machine learning–based classification model is proposed to:
+To address this issue, the project combines numerical modeling and machine learning to classify beam trajectories and identify whether the beam impacts:
 
-- identify the fraction of the beam impacting the aluminum frame,
+- the intended target region, or
 
-- distinguish it from the portion correctly hitting the target,
+- the surrounding aluminum frame.
 
-- and support beam optimization and alignment strategies.
+## Objective
 
-The project demonstrates:
+Develop a machine learning classifier capable of predicting whether a given beam trajectory will correctly hit the target or spill over to the surrounding structure.
 
-- integration of experimental accelerator physics with computational modeling,
+This enables:
 
-- application of machine learning to beam diagnostics,
+- improved beam alignment
 
-- interpretation of ML outputs in a physical and geometrical context,
+- better experimental efficiency
 
-- optimization-oriented thinking applied to real experimental constraints.
+- data-driven optimization of accelerator parameters
 
-This repository highlights how machine learning techniques can complement numerical physics solutions to improve experimental design and accelerator performance.
+## Methodology
+
+### Physical Modeling
+
+Beam trajectories were first modeled using a numerical formulation inspired by the goat grazing problem, which describes constrained motion within bounded geometries.
+
+This provided a mathematical representation of the beam–target interaction region.
+
+### A Logistic Regression classifier was trained to predict the beam impact location.
+
+## Key results
+
+The model successfully distinguishes between:
+
+- trajectories hitting the target
+
+- trajectories impacting the aluminum frame
+
+This provides a practical tool for beam diagnostics and experimental optimization.
+
+## Technologies
+
+- Python
+
+- NumPy
+
+- Pandas
+
+- Scikit-Learn
+
+- Matplotlib / Seaborn
+
+## Key Skills Demonstrated
+
+- Physics-informed machine learning
+
+- Feature engineering from numerical simulations
+
+- Classification modeling
+
+- Scientific data analysis
+
+- Experimental diagnostics
