@@ -61,8 +61,6 @@ This provides a practical tool for beam diagnostics and experimental optimizatio
 
 - Physics-informed machine learning
 
-- Feature engineering from numerical simulations
-
 - Classification modeling
 
 - Scientific data analysis
